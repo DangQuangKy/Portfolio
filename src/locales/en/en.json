@@ -1,0 +1,13 @@
+{
+    "header": {
+        "home" : "Home",
+        "about": "About",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Welcome to My Portfolio!",
+        "subTitle": "My name is Dang Quang Ky.",
+        "description": "A passionate Front-end Web Developer based in Ha Noi."
+    }
+}
