@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const About = () => {
     return (
-        <div>
+        <section>
             <div className="flex p-14">
             <div className="flex-1">
                 <div className="text-center">
@@ -20,7 +20,7 @@ const About = () => {
         <div className="text-center mt-10">
             <a href="../assets/CV.pdf" download="CV_Dang_Quang_Ky.pdf" target="_blank"><Button variant="outlined">Download CV</Button></a>
         </div>
-        </div>
+        </section>
 
     );
 }

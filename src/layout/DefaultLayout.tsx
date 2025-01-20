@@ -15,9 +15,9 @@ const DefaultLayout = () => {
         <ThemeProvider theme={theme}>
             <div className={darkMode ? "dark" : "light"}>
             <Header />
-            <div className="min-h-screen max-w-screen-xl p-5 mt-4">
+            <main className="min-h-screen max-w-screen-xl p-5 mt-4">
                 <Outlet />
-            </div>
+            </main>
             </div>
         </ThemeProvider>
     );

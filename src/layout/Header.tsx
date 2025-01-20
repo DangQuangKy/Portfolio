@@ -35,13 +35,13 @@ const Header = () => {
     };
 
     return (
-        <div className="flex justify-around gap-12 max-w-screen-xl h-28 items-center sticky top-0 z-50"
+        <header className="flex justify-around gap-12 max-w-screen-xl h-28 items-center sticky top-0 z-50"
             style={{ backgroundColor: bgColor }}
         >
             <div>
                 <LogoTitle />
             </div>
-            <div className="flex gap-10 text-xl">
+            <nav className="flex gap-10 text-xl">
                 <Link to="/">{t("header.home")}</Link>
                 <Link to="/about">{t("header.about")}</Link>
                 <Link to="/portfolio">{t("header.portfolio")}</Link>
@@ -53,8 +53,8 @@ const Header = () => {
                 >
                     {currentLanguage === "en" ? "Vi" : "En"}
                 </Button>
-            </div>
-        </div>
+            </nav>
+        </header>
     );
 };
 

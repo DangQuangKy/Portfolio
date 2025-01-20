@@ -8,7 +8,7 @@ import TechStock from "../components/TechStock";
 const Home = () => {
     const { t } = useTranslation()
     return (
-        <div>
+        <section>
             <div className="flex flex-1 justify-evenly">
                 <div className="text-center mt-4">
                     <div className="leading-10 max-w-md">
@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
             </div>
             <TechStock />
-        </div>
+        </section>
     );
 }
 

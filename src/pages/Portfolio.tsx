@@ -2,7 +2,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Portfolio = () => {
     return (
-        <div className="p-8">
+        <section className="p-8">
             <h1 className="text-3xl font-mono text-center">Portfolio</h1>
             <div className="flex mt-10">
                 <div className="flex-1">
@@ -32,7 +32,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
