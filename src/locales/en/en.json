@@ -13,5 +13,15 @@
     "contact": {
         "title": "Let's Connect",
         "subTitle": "Don't be a stranger! Say hello and let's collaborate!"
+    },
+    "portfolio": {
+        "p1": {
+            "title": "The e-commerce website",
+            "description": "Description",
+            "title_description": "is an e-commerce platform specializing in men's shirts. The website includes key pages such as the homepage, product listing, product detail, shopping cart, checkout, and additional informational pages.",
+            "tech": "Technologies Used",
+            "languages": "Languages",
+            "Libraries and Frameworks": "Libraries and Frameworks"
+        }
     }
 }

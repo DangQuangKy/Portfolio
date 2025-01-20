@@ -5,7 +5,7 @@ const LogoTitle = () => {
 
     return ( 
         <div className="text-5xl cursor-pointer" onClick={() => navigate("/")}>
-            Ky D.Q
+            Ky D.Q {'</>'}
         </div>
      );
 }

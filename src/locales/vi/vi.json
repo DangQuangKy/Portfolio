@@ -13,5 +13,15 @@
     "contact": {
         "title": "Hãy liên lạc với tôi!",
          "subTitle": "Đừng làm người lạ! Hãy chào nhau và chúng ta cùng hợp tác nhé!"
+    },
+    "portfolio": {
+        "p1": {
+            "title": "Trang web thương mại điện tử",
+            "description": "Mô tả",
+             "title_description": "là sàn thương mại điện tử chuyên về áo sơ mi nam. Trang web bao gồm các trang chính như trang chủ, danh sách sản phẩm, chi tiết sản phẩm, giỏ hàng, thanh toán và các trang thông tin bổ sung.",
+             "tech": "Công nghệ sử dụng",
+             "languages": "Ngôn ngữ",
+            "Libraries and Frameworks": "Thư viện and Frameworks"
+        }
     }
 }
