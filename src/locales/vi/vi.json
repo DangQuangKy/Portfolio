@@ -9,5 +9,9 @@
         "title": "Chào mừng đến với Hồ sơ của tôi!",
         "subTitle": "Tôi tên là Đặng Quang Kỳ.",
         "description": "Một Lập trình viên Front-end đầy đam mê tại Hà Nội."
+    },
+    "contact": {
+        "title": "Hãy liên lạc với tôi!",
+         "subTitle": "Đừng làm người lạ! Hãy chào nhau và chúng ta cùng hợp tác nhé!"
     }
 }

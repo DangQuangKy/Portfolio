@@ -5,8 +5,8 @@ const Contact = () => {
     const { t } = useTranslation()
     return ( 
         <section>
-            <h1 className="font-mono text-3xl text-center">Contact</h1>
-            <div>
+            <h1 className="font-mono text-3xl text-center">{t("header.contact")}</h1>
+            <div className="text-center mt-5">
                 <h3>{t("contact.title")}</h3>
                 <p>{t("contact.subTitle")}</p>
                 <ContactForm /> 
