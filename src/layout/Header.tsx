@@ -18,11 +18,7 @@ const Header = () => {
                 setBgColor("transparent"); 
             }
         };
-
-       
         window.addEventListener("scroll", handleScroll);
-
-        
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
